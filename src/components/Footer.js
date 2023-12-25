@@ -16,7 +16,10 @@ const Footer = () => {
       <div className="footer-container">
         <div className="left">
           <div className="location">
-            <FaHome size={20} style={{ color: '#F9EE03 ', marginRight: '2rem' }} />
+            <FaHome
+              size={20}
+              style={{ color: '#F9EE03 ', marginRight: '2rem' }}
+            />
             <div>
               <p>Chatzimichali 16, Agia</p>
               <p>Larissa, Greece</p>
@@ -40,21 +43,17 @@ const Footer = () => {
               />
               mrantonp@gmail.com
             </h4>
-            
-            
           </div>
         </div>
 
         <div className="right">
           <h4>About the Company</h4>
           <p>
-            This is me Papaioannou Antonis.Founder of Papaioannou.Dev. I
-            enjoy discussing new projects and design challenges. <span id='poetry'>`` Where
-            Innovation meets Imagination ``</span>
+            This is me Papaioannou Antonis.Founder of Papaioannou.Dev. I enjoy
+            discussing new projects and design challenges.{' '}
+            <span id="poetry">`` Where Innovation meets Imagination ``</span>
           </p>
           <div className="social">
-            
-
             <FaFacebook
               size={30}
               style={{ color: '#fff', marginRight: '1rem' }}
@@ -68,13 +67,20 @@ const Footer = () => {
               style={{ color: '#fff', marginRight: '1rem' }}
             />
           </div>
+
           <h4>
-            <span style={{color: "grey"}}>Copyright © 2023 Papaioannou Antonis. All rights reserved.</span> 
-            </h4>
+            <span style={{ color: 'grey' }}>
+              Designed by Zoi Vasilopoulou - Dimitra Vasilopoulou
+            </span>
+          </h4>
+          <h4>
+            <span style={{ color: 'grey' }}>
+              Copyright © 2023 Papaioannou Antonis. All rights reserved.
+            </span>
+          </h4>
         </div>
       </div>
     </div>
-    
   );
 };
 

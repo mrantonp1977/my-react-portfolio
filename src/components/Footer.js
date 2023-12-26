@@ -68,11 +68,7 @@ const Footer = () => {
             />
           </div>
 
-          <h4>
-            <span style={{ color: 'grey' }}>
-              Designed by Zoi Vasilopoulou - Dimitra Vasilopoulou
-            </span>
-          </h4>
+          
           <h4>
             <span style={{ color: 'grey' }}>
               Copyright © 2023 Papaioannou Antonis. All rights reserved.

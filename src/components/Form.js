@@ -60,7 +60,8 @@ const Form = () => {
         <textarea
           name="message"
           placeholder="Type your message here..."
-          rows="6"
+          rows="6" 
+          required
         ></textarea>
         <button className="btn">Submit</button>
       </form>
